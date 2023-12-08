@@ -1,0 +1,102 @@
+import 'package:Fahren123/util/app_constants.dart';
+class AppString{
+  static const String noConnection = 'Keine Verbindung';
+  static const String noInternetConnection = 'Keine Internetverbindung';
+  static const String connected = 'Verbunden';
+  static const String retry = 'Wiederholen';
+  static const String success = 'Erfolg';
+  static const String bankPaymentSuccess = 'Vielen Dank, dass Sie die Option Banküberweisung gewählt haben. Sobald Ihre Zahlung eingegangen ist, werden wir Ihr Konto aktivieren. Danke für Ihre Kooperation. Bei Fragen wenden Sie sich bitte an Ihr Fahren123.de Team.';
+  static const String digitalPaymentSuccess = 'Vielen Dank, dass Sie sich für die Fahren123.de App entschieden haben.\n Wir haben Ihre Zahlung erfolgreich erhalten. Wir wünschen Ihnen viel Erfolg bei Ihrer Führerscheinvorbereitung.';
+  static const String password = 'Passwort';
+  static const String oldPassword = 'Altes Kennwort';
+  static const String confirmPassword = 'Kennwort bestätigen';
+  static const String email = 'E-Mail ID';
+  static const String transactionId = 'Transaktions-ID';
+  static const String accountholder = 'Name des Kontoinhabers';
+  static const String fullName = 'Vollständiger Name';
+  static const String signIn = 'Anmeldung';
+  static const String referralCode = 'Promo-Code';
+
+  static const String signUp = 'Registrieren';
+  static const String gender = 'Geschlecht';
+  static const String male = 'Male';
+  static const String female = 'Female';
+  static const String other = 'Other';
+  static const String next = 'Fortsetzen';
+  static const String conTinue = 'Weiter';
+  static const String forgotPassword = 'Passwort vergessen';
+  static const String isForgotPassword = 'Passwort vergessen?';
+  static const String doNotHaveAccount = 'Sie haben kein Konto?';
+  static const String phoneNoTextField = 'Handy Nummer';
+  static const String alreadyHaveAccount = 'Sie haben bereits ein Konto?';
+  static const String signUpRequest = 'Führerschein Theorie lernen in 21 Tagen mit der Fahren123.de App! Bitte melden Sie sich an';
+  static const String loginRequest = 'Lernen und verstehen Sie Theorie in Ihrer Sprache';
+  static const String isForgetYourPassword = 'Passwort vergessen?';
+  static const String otpAuthentication = 'OTP-Authentifizierung';
+  static const String createNewPassword = 'Neues passwort erstellen';
+  static const String createPassword = 'Passwort erstellen';
+  static const String createNewPasswordToSignIn = 'Erstellen Sie Ihr neues Passwort, um sich anzumelden';
+  static const String weSendOtpToResetPassword = 'Bitte geben Sie die E-Mail-Adresse ein, an die wir Ihnen den otp-Authentifizierungscode senden, um Ihr Passwort zurückzusetzen.';
+  static const String otpSentToMobileNumber = 'An authentication code has been sent to mobile number';
+  static const String otpSentToEmail = 'Ein Authentifizierungscode wurde per E-Mail gesendet';
+  static const String solarHouse = 'Solar house';
+  static const String policies = 'Polices';
+  static const String privacyPolicy = 'Datenschutz-Bestimmungen';
+  static const String selectLanguage = 'Sprache Auswählen';
+  static const String notification = 'Notification';
+  static const String addSolar = 'Add new solar';
+  static const String solarName = 'Solar name';
+  static const String solarPowerInWatt = 'Solar power (Kw)';
+  static const String solarApiKey = 'Solar api key';
+  static const String solarControlCenter = 'Solar controller';
+  static const String solarDetails = 'Solar details';
+  static const String changePassword = 'Passwort ändern';
+  static const String logout = 'Ausloggen';
+  static const String shareApp = 'App Teilen';
+  static const String add = 'Hinzufügen';
+  static const String policiesText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  static const String termsAndConditions = 'Geschäftsbedingungen';
+  static const String termsAndConditionsText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  static const String update = 'Aktualisieren';
+  static const String delete = 'Löschen';
+  static const String deleteAccount = 'Konto löschen';
+  static const String previous = 'Vorig';
+  static const String showAnswer = 'Zeige die Antwort';
+  static const String hideAnswer = 'Antwort verstecken';
+  static const String home = 'Heim';
+  static const String no = 'Nein';
+  static const String yes = 'Ja';
+  static const String ok = 'ok';
+  static const String logoutMessage = 'Möchten Sie sich wirklich abmelden?';
+  static const String deleteAccountMessage = 'Möchten Sie das Konto wirklich löschen?';
+  static const String enterAnswer = 'Antworten';
+  static const String purchasePlan = 'Kaufplan';
+
+  static const String loginNow = "Anmelden, um fortzufahren";
+  static const String welcome = "Willkommen bei Fahren 123!";
+  static const String accepttnc = 'Ich akzeptiere die AGB';
+  
+}
+
+class ErrorMessage{
+  static const String mobileNumberEmptyError = 'Handynummer ist erforderlich';
+  static const String transactionIdEmptyError = 'Transaktions-ID ist erforderlich';
+  static const String transactionIdInvalidError = 'Ungültige Transaktions-ID';
+  static const String mobileNumberInvalidError = 'ungültige Handynummer';
+  static const String emailEmptyError = 'E-Mail ist erforderlich';
+  static const String emailInvalidError = 'Ungültige E-Mail';
+  static const String nameEmptyError = 'Name ist erforderlich';
+  static const String nameMaxLengthError = 'Name must contain at most ${AppConstants.TEXT_FIELD_MAX_LENGTH} characters';
+  static const String emailMaxLengthError = "E-Mail darf nicht zu viele Zeichen enthalten";
+  static const String passwordEmptyError = 'Passwort wird benötigt';
+  static const String passwordInvalidError = 'Ungültiges Passwort';
+  static const String passwordMissMatchError = "Passwort stimmt nicht überein";
+  static const String passwordMinLengthError = 'Passwort muss mindestens ${AppConstants.PASSWORD_MIN_LENGTH} Zeichen enthalten';
+  static const String passwordMaxLengthError = 'Password must contain at most ${AppConstants.TEXT_FIELD_MAX_LENGTH} characters';
+  static const String solarNameEmptyError = 'Email is required';
+  static const String solarNameMaxLengthError = 'Solar name must contain at most ${AppConstants.TEXT_FIELD_MAX_LENGTH} characters';
+  static const String solarPowerEmptyError = 'Solar power is required';
+  static const String solarPowerMaxLengthError = 'Solar power must contain at most ${AppConstants.DIGIT_TEXT_FIELD_MAX_LENGTH} digits';
+  static const String confirmPasswordError = 'Passwort stimmt nicht überein';
+
+}

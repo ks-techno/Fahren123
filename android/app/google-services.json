@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315849277983",
+    "project_id": "fahren123-62e79",
+    "storage_bucket": "fahren123-62e79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315849277983:android:8854129ca14d6516ee4b2a",
+        "android_client_info": {
+          "package_name": "de.fahren123"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315849277983-g9gm31e61ref6th1c2ulb7b8mou05cst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWLxNcWS5aVEh0c6aPVDXH5XMfT-OeTTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315849277983-g9gm31e61ref6th1c2ulb7b8mou05cst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
